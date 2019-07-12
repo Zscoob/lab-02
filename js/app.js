@@ -1,10 +1,10 @@
 'use strict';
 
-console.log('Good to go')
+console.log('Good to go');
 
 startQuiz();
 
-function startQuiz(){
+function startQuiz() {
   alert('Lets play a game... ;)');
   questionOnex();
   questionTwox();
@@ -13,85 +13,75 @@ function startQuiz(){
   questionFivex();
 }
 
-function questionOnex(){
+function questionOnex() {
 
   alert('Ready? START!');
 
-  var questionOne = prompt("Am I a Unicorn?");
+  var questionOne = prompt('Am I a Unicorn?');
 
   var answerOne = questionOne.toUpperCase().trim();
 
   console.log(answerOne);
 
-  if(answerOne === 'YES' || answerOne === 'Y')
-  {
+  if (answerOne === 'YES' || answerOne === 'Y') {
     alert('The correct answer is...YES');
-  } else if(answerOne === 'NO' || answerOne ==='N')
-  {
+  } else if (answerOne === 'NO' || answerOne === 'N') {
     alert('You dun goofed...');
   } else {
     alert('Please answer: YES or NO');
   }
 }
 
-function questionTwox(){
+function questionTwox() {
   var questionTwo = prompt('Am I native to Iowa?');
 
   var answerTwo = questionTwo.toUpperCase().trim();
 
   console.log(answerTwo);
 
-  if(answerTwo === 'NO' || answerTwo === 'N')
-  {
+  if (answerTwo === 'NO' || answerTwo === 'N') {
     alert('The correct answer is...NO');
-  } else if(answerTwo === 'YES' || answerTwo ==='Y')
-  {
+  } else if (answerTwo === 'YES' || answerTwo === 'Y') {
     alert('You dun goofed...');
   } else {
     alert('Please answer: YES or NO');
   }
 }
 
-function questionThreex(){
+function questionThreex() {
   var questionThree = prompt('Do I support recreational marijuana usage?');
   var answerThree = questionThree.toUpperCase().trim();
   console.log(answerThree);
-  if(answerThree === 'YES' || answerThree === 'Y')
-  {
+  if (answerThree === 'YES' || answerThree === 'Y') {
     alert('The correct answer is...YES');
-  } else if(answerThree === 'NO' || answerThree ==='N')
-  {
+  } else if (answerThree === 'NO' || answerThree === 'N') {
     alert('You dun goofed...');
   } else {
     alert('Please answer: YES or NO');
   }
 }
 
-function questionFourx(){
+function questionFourx() {
   var questionFour = prompt('Do I love Animals with "hella" passion?');
   var answerFour = questionFour.toUpperCase().trim();
   console.log(answerFour);
-  if(answerFour === 'YES' || answerFour === 'Y')
-  {
+  if (answerFour === 'YES' || answerFour === 'Y') {
     alert('The correct answer is...YES');
-  } else if(answerFour === 'NO' || answerFour ==='N')
-  {
+  } else if (answerFour === 'NO' || answerFour === 'N') {
     alert('You dun goofed...');
   } else {
     alert('Please answer: YES or NO');
   }
 }
-  
-function questionFivex(){
+
+function questionFivex() {
   var questionFive = prompt('Is bacon my favorite food?');
   var answerFive = questionFive.toUpperCase().trim();
   console.log(answerFive);
-  
-  if(answerFive === 'NO' || answerFive === 'N')
-  {
+
+  if (answerFive === 'NO' || answerFive === 'N') {
     alert('The correct answer is...NO');
-  } else if(answerFive === 'YES' || answerFive ==='Y')
-  {
+  } else if (answerFive === 'YES' || answerFive === 'Y') {
     alert('You dun goofed...');
   } else {
     alert('Please answer: YES or NO');
