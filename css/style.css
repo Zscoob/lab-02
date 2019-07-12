@@ -1,12 +1,22 @@
 body {
     color: purple;
+    background-color:gray;
     border: 20px dashed black;
 }
 h1 {
     background-color: goldenrod;
-    color: black;
+    color: green;
     border: 3px black solid;
 }
+ul{
+    background-color: cyan;
+}
+li{
+    color:red;
+    border: dashed red 1px;
+}
 p{
-color: white;
+color: darkblue;
+border: green 2px solid;
+background-color: orange;
 };
